@@ -1,0 +1,68 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles1.css">
+  </head>
+  <body>
+   
+    <form id="survey-form">
+      <fieldset>
+        
+        <h1 id="title">My Survey Form</h1>
+    <p id="description">Welcome to my survey, please complete the information below.</p>
+    
+        <!--Personal Info Start-->
+
+        <h3>Personal Info</h3>
+        <!--Name-->
+      <label id="name-label">Name: <input id="name" type="text" placeholder="Enter your name"required/></label>
+        <!--Email-->
+      <label id="email-label">Email: <input id="email" type="email" placeholder="Enter your email"required/></label>
+        <!--Age-->
+      <label id="number-label">Age: <input id="number" type="number" min="13" max="120" placeholder="Age"/></label>
+
+      <!--Personal Info End-->
+
+      <!--Why are you here Start-->
+    
+         <h3>Why are you here?</h3>
+         <!--Select-->
+         <select id="dropdown">
+           <option value="">Choose what best describes you:</option>
+           <option value="curious">I'm here for the fun of it</option>
+           <option value="bestie">I had no choice</option>
+           <option value="recruiter">Looking through your portifolio</option>
+          </select>
+          <p>Aproved?</p>
+          <!--Radios -->
+          <label class="radios">
+            <input id="yes" type="radio" name="approved" value="yes" />Yes
+            <input id="of" type="radio" name="approved" value="of-course"/>Of course
+          </label> 
+          <!--Checkbox -->
+          <label class="checkbox"><p>Am i hired?</p>
+            <input id="yep" type="checkbox" value="yep">Yes Queen
+            <input id="im" type="checkbox" value="immediately">Immediately
+          </label> 
+          <!--Textarea -->
+          <label id="textarea">Comments and compliments below:
+          
+            <p><textarea rows="3" cols="30" placeholder="Don't be mean cause I'll cry :)"></textarea>
+            </p>
+          </label>
+          <!--Why are you here End-->
+          <input id="submit" type="submit" value="Submit" />
+       </fieldset>
+       
+    </form>
+  </body>
+</html>
+
+
+
+
+

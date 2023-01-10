@@ -1,0 +1,88 @@
+body{
+    background-color: #EFA593;
+    text-align: center;
+}
+
+fieldset{
+    background-color: #F8EAD5;
+    margin:auto;
+    width: 80%;
+    max-width: 750px;
+}
+
+h1{
+   
+    font-family: timens 'Times New Roman', Times, serif ;
+    color:#BA4B2F;
+}
+h3 {
+    text-align: center;
+    font-family: timens 'Times New Roman', Times, serif ;
+    color:#BA4B2F;
+}
+p {
+    color: #BA4B2F;
+    font-family: timens 'Times New Roman', Times, serif ;
+    margin-bottom: none;
+
+}
+.radios{
+    margin-top: none;
+    margin-bottom: 10px;
+    display: inline;
+    color: #e4694a;
+}
+.checkbox{
+    color: #e4694a;
+    display: inline;
+    border-bottom: 50px;
+    margin-top: 5px;
+    
+   
+    
+}
+input{
+    color: black;
+    display: inline-table;
+    margin: 5px auto;
+    border: #BA4B2F;
+    border-radius: 30px 30px 30px 30px;
+    text-align: center;
+}
+#name-label, #email-label, #number-label, #textarea {
+    display: block;
+    color: #e4694a;
+    
+    
+}
+#submit {
+    background-color:#EFA593;
+    color: #F8EAD5; 
+    margin: 10px solid #BA4B2F ;
+    border: 10px #BA4B2F;
+    width: 100px;
+    
+}
+select{
+    border-radius: 30px 30px 30px 30px ;
+    height: 20px;
+}
+
+::placeholder{
+    text-align: center;
+}
+
+label{
+    margin-top: 15px;
+    margin-bottom: none;
+}
+
+#yep, #im {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+#yes, #of {
+    margin-right: 5px;
+    margin-left: 10px;
+}
